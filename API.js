@@ -2,7 +2,7 @@ const express = require("express");
 // -----------------------------------------------
 const app = express();
 const { Translate } = require("@google-cloud/translate").v2;
-const translate = new Translate({ key: "AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw" }); // Thay YOUR_API_KEY bằng API Key của bạn
+const translate = new Translate({ key: "AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw" });
 const { createWorker } = require("tesseract.js");
 const cors = require("cors");
 
